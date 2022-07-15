@@ -11,7 +11,7 @@ public class switchExample {
         }
 
 
-       /* switch (value){
+        switch (value){
             case 1:
                 System.out.println(("value ==1"));
                 break;
@@ -26,6 +26,6 @@ public class switchExample {
                 break;
             default:
                 System.out.println("Нет такого значения");
-        }*/
+        }
     }
 }
