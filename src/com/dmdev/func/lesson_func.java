@@ -7,11 +7,13 @@ public class lesson_func {
         isLeapYear(value);
 
     }
-    public static void isLeapYear(int year){
-        if (year % 400 == 0 || (year % 4 ==0 && year % 100 != 0)){
-            System.out.println(year + " Високосный");
+    public static boolean isLeapYear(int year){
+        return year % 400 == 0 || (year % 4 ==0 && year % 100 != 0);
+        /*if (result){
+            return true;
         } else{
-            System.out.println(year + " Не Високосный");
-        }
+            return false;
+        }*/
     }
 }
+
