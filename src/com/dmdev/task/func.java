@@ -10,9 +10,9 @@ public class func {
     public static int GetMax(int FirstValue, int SecondValue){
         if (FirstValue > SecondValue){
             return FirstValue;
-        } else {
-            return SecondValue;
         }
+            return SecondValue;
+
 
     }
 }
